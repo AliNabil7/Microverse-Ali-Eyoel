@@ -1,0 +1,15 @@
+body {
+  display: grid;
+  grid-template-columns: 300px auto;
+}
+
+.nav-link {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
